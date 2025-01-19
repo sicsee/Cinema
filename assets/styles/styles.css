@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rammetto+One&display=swap');
+@import url('login.css');
+@import url('home.css');
+@import url('novo.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+:root {
+  --purple-base: #892CCD;
+  --purple-light: #A85FDD;
+  --gray-100: #0F0F1A;
+  --gray-200: #131320;
+  --gray-300: #1A1B2D;
+  --gray-400: #45455F;
+  --gray-500: #7A7B9F;
+  --gray-600: #B5B6C9;
+  --gray-700: #E4E5EC;
+  --error-base: #D04048;
+  --error-light: #F77980;
+}

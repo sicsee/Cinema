@@ -1,0 +1,151 @@
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  padding: 15px;
+  background-color: var(--gray-100);
+}
+
+.img-login {
+  background-image: url('/assets/images/Login.png');
+  background-position: center;
+  width: 650px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.icon-login img {
+  width: 100px;
+}
+
+.text-login {
+  position: relative;
+  margin-top: 350px;
+  margin-left: 25px;
+}
+
+.text-login span {
+  font-size: 16px;
+  font-family: 'Rammetto One';
+  font-weight: bolder;
+  color: var(--gray-600);
+}
+
+.text-login p {
+  font-size: 20px;
+  font-family: 'Rammetto One';
+  color: white;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 25px;
+}
+
+.login-btn1 {
+  background-color: var(--gray-200);
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--gray-200);
+  color: var(--gray-500);
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn.active {
+  color: var(--purple-base);
+  background-color: var(--gray-300);
+}
+
+.login-form p,
+.cadastro-form p {
+  font-size: 23px;
+  font-family: 'Rammetto One';
+  color: white;
+  margin-bottom: 15px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-container {
+  position: relative;
+  width: 315px;
+  margin-bottom: 15px;
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--gray-500);
+}
+
+.input-container input {
+  height: 50px;
+  width: 100%;
+  padding-left: 45px;
+  background-color: var(--gray-100);
+  border: solid 2px var(--gray-300);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.input-container input::placeholder {
+  color: var(--gray-500);
+}
+
+.formulario button {
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--purple-base);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  transition: all .3s ease;
+}
+
+.formulario button:hover {
+  background-color: var(--purple-light);
+  cursor: pointer
+}
+
+.login-form,
+.cadastro-form {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.active-form {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+}
+
+.formulario a {
+  text-decoration: none;
+  color: white;
+}
